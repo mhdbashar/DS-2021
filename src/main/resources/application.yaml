@@ -1,5 +1,5 @@
 server:
-  port: ${port:2222}
+  port: ${port:2223}
 spring:
   application:
     name: First-Boot-Application
@@ -11,8 +11,10 @@ management:
                 include: info,health,metrics,loggers,beans,mappings
         health:
             show-details: always
-                
-                    
+eureka:
+    instance:
+        leaseRenewalIntervalInSeconds: 1
+        leaseExpirationDurationInSeconds: 2                    
 #  devtools:
 #    restart:
 #      exclude: static/**

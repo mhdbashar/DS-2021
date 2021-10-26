@@ -5,8 +5,7 @@
  */
 package com.example.demo.controller;
 
-import com.example.demo.model.Person;
-import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +20,6 @@ public class homeController {
     
     @GetMapping
     public String home() {
-        return "<h1>Hello ABou Jawwad</h1>";
+        return "<h1>Hello DS-2021 Discovery Service</h1>";
     }
 }
