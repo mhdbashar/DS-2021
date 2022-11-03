@@ -22,7 +22,7 @@ import springfox.documentation.builders.PathSelectors;
 @SpringBootApplication
 @EnableSwagger2
 @RestController
-@EnableEurekaClient
+//@EnableEurekaClient
 public class DemoApplication {
     public static void main(String[] args) {
 	SpringApplication.run(DemoApplication.class, args);
