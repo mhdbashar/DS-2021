@@ -20,6 +20,6 @@ public class homeController {
     
     @GetMapping
     public String home() {
-        return "<h1>Hello DS-2022 Discovery Service</h1>";
+        return "<h1>Hello DS-2022 </h1>";
     }
 }
